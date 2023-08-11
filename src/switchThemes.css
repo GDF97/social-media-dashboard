@@ -1,0 +1,123 @@
+@import url(style.css);
+
+/* Dark Mode */
+body.darkMode .container {
+  background-color: var(--Very-Dark-Blue);
+}
+
+body.darkMode .topBG {
+  background-color: var(--Very-Dark-Blue-topbgpattern);
+}
+
+body.darkMode .header {
+  color: white;
+}
+
+body.darkMode .header > .left > p {
+  color: var(--Desaturate-Blue);
+}
+
+body.darkMode .header > .button-wrapper {
+  color: var(--Desaturate-Blue);
+}
+
+body.darkMode .toggle-label {
+  background: linear-gradient(90deg, #378fe6 0%, #3eda82 100%);
+}
+
+body.darkMode .toggle-label::before {
+  background-color: var(--Very-Dark-Blue-topbgpattern);
+}
+
+body.darkMode .first-section > div {
+  background-color: var(--Dark-Desaturated-Blue);
+}
+
+body.darkMode .first-section > div:hover {
+  filter: brightness(1.25);
+}
+
+body.darkMode .first-section > div > span {
+  color: var(--Desaturate-Blue);
+}
+
+body.darkMode .mainNumber {
+  color: white;
+}
+
+body.darkMode .titleCard {
+  color: var(--Desaturate-Blue);
+}
+
+body.darkMode .second-section > h1 {
+  color: white;
+}
+
+body.darkMode .grid-second-section > div {
+  background-color: var(--Dark-Desaturated-Blue);
+}
+
+body.darkMode .grid-second-section > div:hover {
+  filter: brightness(1.25);
+}
+
+/* Light Mode */
+body.lightMode .container {
+  background-color: white;
+}
+
+body.lightMode .topBG {
+  background-color: var(--Very-Pale-Blue);
+}
+
+body.lightMode .header {
+  color: black;
+}
+
+body.lightMode .header > .left > p {
+  color: var(--Dark-Grayish-Blue);
+}
+
+body.lightMode .header > .button-wrapper {
+  color: var(--Dark-Grayish-Blue);
+}
+
+body.lightMode .toggle-label {
+  background: var(--Toggle-light);
+}
+
+body.lightMode .toggle-label::before {
+  background-color: var(--Very-Pale-Blue);
+}
+
+body.lightMode .first-section > div {
+  background-color: var(--Light-Grayish-Blue);
+}
+
+body.lightMode .first-section > div > span {
+  color: var(--Dark-Grayish-Blue);
+}
+
+body.lightMode .mainNumber {
+  color: var(--Very-Dark-Blue);
+}
+
+body.lightMode .titleCard {
+  color: var(--Dark-Grayish-Blue);
+}
+
+body.lightMode .second-section > h1 {
+  color: var(--Dark-Grayish-Blue);
+}
+
+body.lightMode .grid-second-section > div {
+  background-color: var(--Light-Grayish-Blue);
+}
+
+body.lightMode .first-section > div:hover {
+  filter: brightness(0.75);
+}
+
+body.lightMode .grid-second-section > div:hover {
+  filter: brightness(0.75);
+}

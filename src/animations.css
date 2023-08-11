@@ -1,0 +1,127 @@
+.animate {
+  animation-duration: 0.75s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+
+.animate.animate--delay-5ms {
+  animation-delay: 0.5s;
+}
+
+.animate.animate--delay-1s {
+  animation-delay: 1s;
+}
+
+.animate.animate--delay-1_25s {
+  animation-delay: 1.25s;
+}
+
+.animate.animate--delay-1_5s {
+  animation-delay: 1.5s;
+}
+
+.animate.animate--delay-1_75s {
+  animation-delay: 1.75s;
+}
+
+.animate.animate--delay-2s {
+  animation-delay: 2s;
+}
+
+.animate.animate--delay-2_25s {
+  animation-delay: 2.25s;
+}
+
+.animate.animate--delay-2_5s {
+  animation-delay: 2.5s;
+}
+
+.animate.animate--delay-2_75s {
+  animation-delay: 2.75s;
+}
+
+.animate.animate--delay-3s {
+  animation-delay: 3s;
+}
+
+.animate.animate--delay-3_25s {
+  animation-delay: 3.25s;
+}
+
+.animate.animate--delay-3_5s {
+  animation-delay: 3.5s;
+}
+
+.animate.animate--delay-3_75s {
+  animation-delay: 3.75s;
+}
+
+.animate.animate--delay-4s {
+  animation-delay: 4s;
+}
+
+.animate.animate--delay-4_25s {
+  animation-delay: 4.25s;
+}
+
+.animate.animate--delay-4_5s {
+  animation-delay: 4.5s;
+}
+
+@keyframes slideFromTop {
+  from {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slideFromTop {
+  animation-name: slideFromTop;
+}
+
+@keyframes slideFromBottom {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slideFromBottom {
+  animation-name: slideFromBottom;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.opacity {
+  animation-name: opacity;
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideFromLeft {
+  animation-name: slideFromLeft;
+}
